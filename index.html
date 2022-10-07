@@ -13,143 +13,141 @@
       <h1 class="header__title">Quiz-App</h1>
     </header>
     <main>
-      <form>
-        <ul class="card-list">
-          <!--
+      <ul class="card-list">
+        <!--
                 FIRST CARD
               -->
-          <li class="card-list__item">
-            <article class="card">
-              <h2 class="card__question">
-                In the Kingdom Heart series who provides the english voice for
-                Master Eraqus?
-              </h2>
+        <li class="card-list__item">
+          <article class="card">
+            <h2 class="card__question">
+              In the Kingdom Heart series who provides the english voice for
+              Master Eraqus?
+            </h2>
+            <button
+              class="card__button-answer"
+              type="button"
+              data-js="button-answer"
+            >
+              Show answer
+            </button>
+            <p class="card__answer" data-js="card-answer-text">Mark Hamill</p>
+            <ul class="card__tag-list">
+              <li class="card__tag-list-item">#kingdomheart</li>
+              <li class="card__tag-list-item">#mastereraqus</li>
+              <li class="card__tag-list-item">#english voices</li>
+            </ul>
+            <div class="card__button-bookmark">
               <button
-                class="card__button-answer"
+                class="bookmark"
+                aria-label="bookmark"
                 type="button"
-                data-js="button-answer"
+                data-js="bookmark-button"
               >
-                Show answer
-              </button>
-              <p class="card__answer" data-js="card-answer-text">Mark Hamill</p>
-              <ul class="card__tag-list">
-                <li class="card__tag-list-item">#kingdomheart</li>
-                <li class="card__tag-list-item">#mastereraqus</li>
-                <li class="card__tag-list-item">#english voices</li>
-              </ul>
-              <div class="card__button-bookmark">
-                <button
-                  class="bookmark"
-                  aria-label="bookmark"
-                  type="button"
-                  data-js="bookmark-button"
+                <svg
+                  class="bookmark__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewbox="0 0 24 24"
+                  data-js="bookmark-icon"
                 >
-                  <svg
-                    class="bookmark__icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewbox="0 0 24 24"
-                    data-js="bookmark-icon"
-                  >
-                    <path
-                      d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </article>
-          </li>
-          <!--
+                  <path
+                    d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </article>
+        </li>
+        <!--
                 SECOND CARD
               -->
-          <li class="card-list__item">
-            <article class="card">
-              <h2 class="card__question">
-                Daniel Radcliffe became a global star in the film industry due
-                to his performance in which film franchise?
-              </h2>
+        <li class="card-list__item">
+          <article class="card">
+            <h2 class="card__question">
+              Daniel Radcliffe became a global star in the film industry due to
+              his performance in which film franchise?
+            </h2>
+            <button
+              class="card__button-answer"
+              type="button"
+              data-js="button-answer-two"
+            >
+              Show answer
+            </button>
+            <p class="card__answer" data-js="card-answer-text-two">
+              Harry Potter
+            </p>
+            <ul class="card__tag-list">
+              <li class="card__tag-list-item">#danielradcliffe</li>
+              <li class="card__tag-list-item">#hewhomustnotbenamed</li>
+              <li class="card__tag-list-item">#abracadabra</li>
+            </ul>
+            <div class="card__button-bookmark">
               <button
-                class="card__button-answer"
+                class="bookmark"
+                aria-label="bookmark"
                 type="button"
-                data-js="button-answer-two"
+                data-js="bookmark-button-second"
               >
-                Show answer
-              </button>
-              <p class="card__answer" data-js="card-answer-text-two">
-                Harry Potter
-              </p>
-              <ul class="card__tag-list">
-                <li class="card__tag-list-item">#danielradcliffe</li>
-                <li class="card__tag-list-item">#hewhomustnotbenamed</li>
-                <li class="card__tag-list-item">#abracadabra</li>
-              </ul>
-              <div class="card__button-bookmark">
-                <button
-                  class="bookmark"
-                  aria-label="bookmark"
-                  type="button"
-                  data-js="bookmark-button-second"
+                <svg
+                  class="bookmark__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewbox="0 0 24 24"
+                  data-js="bookmark-icon-second"
                 >
-                  <svg
-                    class="bookmark__icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewbox="0 0 24 24"
-                    data-js="bookmark-icon-second"
-                  >
-                    <path
-                      d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </article>
-          </li>
-          <!--
+                  <path
+                    d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </article>
+        </li>
+        <!--
                 THIRD CARD
               -->
-          <li class="card-list__item">
-            <article class="card">
-              <h2 class="card__question">
-                Which former US president was nicknamed &quot;Teddy&quot; after
-                he refused to shoot a defenseless black bear?
-              </h2>
+        <li class="card-list__item">
+          <article class="card">
+            <h2 class="card__question">
+              Which former US president was nicknamed &quot;Teddy&quot; after he
+              refused to shoot a defenseless black bear?
+            </h2>
+            <button
+              class="card__button-answer"
+              type="button"
+              data-js="button-answer-three"
+            >
+              Show answer
+            </button>
+            <p class="card__answer" data-js="card-answer-text-three">
+              Theodore Roosevelt
+            </p>
+            <ul class="card__tag-list">
+              <li class="card__tag-list-item">#usa</li>
+              <li class="card__tag-list-item">#president</li>
+              <li class="card__tag-list-item">#teddybear</li>
+            </ul>
+            <div class="card__button-bookmark">
               <button
-                class="card__button-answer"
+                class="bookmark"
+                aria-label="bookmark"
                 type="button"
-                data-js="button-answer-three"
+                data-js="bookmark-button-third"
               >
-                Show answer
-              </button>
-              <p class="card__answer" data-js="card-answer-text-three">
-                Theodore Roosevelt
-              </p>
-              <ul class="card__tag-list">
-                <li class="card__tag-list-item">#usa</li>
-                <li class="card__tag-list-item">#president</li>
-                <li class="card__tag-list-item">#teddybear</li>
-              </ul>
-              <div class="card__button-bookmark">
-                <button
-                  class="bookmark"
-                  aria-label="bookmark"
-                  type="button"
-                  data-js="bookmark-button-third"
+                <svg
+                  class="bookmark__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewbox="0 0 24 24"
+                  data-js="bookmark-icon-third"
                 >
-                  <svg
-                    class="bookmark__icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewbox="0 0 24 24"
-                    data-js="bookmark-icon-third"
-                  >
-                    <path
-                      d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </article>
-          </li>
-        </ul>
-      </form>
+                  <path
+                    d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </article>
+        </li>
+      </ul>
     </main>
 
     <nav class="navigation">
@@ -157,7 +155,7 @@
         <li class="navigation__list-item navigation__list-item--active">
           <a
             class="navigation__link"
-            href="/index.html"
+            href="./index.html"
             aria-label="go to home page"
           >
             <svg
@@ -187,6 +185,22 @@
               <path
                 d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
               />
+            </svg>
+          </a>
+        </li>
+        <li class="navigation__list-item">
+          <a
+            class="navigation__link"
+            href="./form.html"
+            aria-label="go to add page"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewbox="0 0 24 24"
+              width="24px"
+            >
+              <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
             </svg>
           </a>
         </li>
